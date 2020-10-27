@@ -24,7 +24,7 @@ namespace GameOfWar.Objects
         }
         public override string ToString()
         {
-            string valueDisplay = "";
+            string valueDisplay = " ";
             if (Value <= 10)
             {
                 valueDisplay = Value.ToString();
